@@ -1,6 +1,6 @@
 # PwaAngularApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4 to learn about PWA. The cities components uses firebase, the dogs component uses a open dogs endpoint.
 
 ## Development server
 
@@ -13,6 +13,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Run `ng build --prod`
+2. cd dist/pwa-angular-app
+3. Run `http-server -c-1 .`
 
 ## Running unit tests
 

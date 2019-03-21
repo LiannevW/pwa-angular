@@ -23,6 +23,30 @@
         ]
       }
     }
+  ],
+  "dataGroups": [{
+      "name": "api-performance",
+      "urls": [
+        "/api/shibes?count=3"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "3d"
+      }
+    },
+    {
+      "name": "api-freshness",
+      "urls": [
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "10s"
+      }
+    }
   ]
+
 }
 

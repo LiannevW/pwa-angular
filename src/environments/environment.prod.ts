@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   // Initialize Firebase
   firebase: {
-    apiKey: 'API_KEY_FIREBASE',
+    apiKey: 'AIzaSyB3-5TtPp4RqSv29Om4mycUx1ghw6PJVfc',
     authDomain: 'cities-app-firestore.firebaseapp.com',
     databaseURL: 'https://cities-app-firestore.firebaseio.com',
     projectId: 'cities-app-firestore',
